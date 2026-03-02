@@ -4,6 +4,7 @@
   "description": "%description%",
   "version": "1.0.0",
   "publisher": "tanakamasayuki",
+  "icon": "images/icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
