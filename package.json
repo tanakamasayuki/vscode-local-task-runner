@@ -2,7 +2,7 @@
   "name": "local-task-runner",
   "displayName": "%displayName%",
   "description": "%description%",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "tanakamasayuki",
   "icon": "images/icon.png",
   "license": "MIT",
