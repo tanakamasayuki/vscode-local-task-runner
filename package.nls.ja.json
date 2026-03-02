@@ -1,0 +1,10 @@
+{
+  "displayName": "Local Task Runner",
+  "description": "アクティブファイル周辺のローカルスクリプトを検出して実行します。",
+  "viewContainerTitle": "タスクランナー",
+  "viewTitle": "ローカルスクリプト",
+  "commandRefresh": "ローカルスクリプトを更新",
+  "commandRunScript": "スクリプトを実行",
+  "commandRunByIndex": "番号でスクリプトを実行",
+  "untrustedDescription": "信頼されていないワークスペースではスクリプト実行を無効化します。"
+}

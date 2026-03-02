@@ -1,0 +1,10 @@
+{
+  "displayName": "Local Task Runner",
+  "description": "发现并运行活动文件附近的本地脚本。",
+  "viewContainerTitle": "任务运行器",
+  "viewTitle": "本地脚本",
+  "commandRefresh": "刷新本地脚本",
+  "commandRunScript": "运行脚本",
+  "commandRunByIndex": "按序号运行脚本",
+  "untrustedDescription": "在不受信任的工作区中禁用脚本执行。"
+}

@@ -1,0 +1,10 @@
+{
+  "displayName": "Local Task Runner",
+  "description": "Discover and run local scripts near the active file.",
+  "viewContainerTitle": "Task Runner",
+  "viewTitle": "Local Scripts",
+  "commandRefresh": "Refresh Local Scripts",
+  "commandRunScript": "Run Script",
+  "commandRunByIndex": "Run Script by Index",
+  "untrustedDescription": "Script execution is disabled in untrusted workspaces."
+}

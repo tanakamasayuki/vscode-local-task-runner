@@ -1,0 +1,10 @@
+{
+  "displayName": "Local Task Runner",
+  "description": "Findet und startet lokale Skripte in der Naehe der aktiven Datei.",
+  "viewContainerTitle": "Task Runner",
+  "viewTitle": "Lokale Skripte",
+  "commandRefresh": "Lokale Skripte aktualisieren",
+  "commandRunScript": "Skript ausfuehren",
+  "commandRunByIndex": "Skript per Index ausfuehren",
+  "untrustedDescription": "Die Skriptausfuehrung ist in nicht vertrauenswuerdigen Workspaces deaktiviert."
+}

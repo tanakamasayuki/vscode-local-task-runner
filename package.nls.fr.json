@@ -1,0 +1,10 @@
+{
+  "displayName": "Local Task Runner",
+  "description": "Detecte et execute des scripts locaux pres du fichier actif.",
+  "viewContainerTitle": "Task Runner",
+  "viewTitle": "Scripts Locaux",
+  "commandRefresh": "Actualiser les scripts locaux",
+  "commandRunScript": "Executer le script",
+  "commandRunByIndex": "Executer le script par index",
+  "untrustedDescription": "L'execution des scripts est desactivee dans les espaces de travail non approuves."
+}

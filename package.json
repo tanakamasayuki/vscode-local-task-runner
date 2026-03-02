@@ -1,0 +1,137 @@
+{
+  "name": "local-task-runner",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "1.0.0",
+  "publisher": "tanakamasayuki",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanakamasayuki/vscode-local-task-runner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tanakamasayuki/vscode-local-task-runner/issues"
+  },
+  "homepage": "https://github.com/tanakamasayuki/vscode-local-task-runner#readme",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "task",
+    "script",
+    "runner",
+    "shell",
+    "automation"
+  ],
+  "activationEvents": [
+    "onView:localTaskRunner.scripts",
+    "onCommand:localTaskRunner.refresh",
+    "onCommand:localTaskRunner.runByIndex"
+  ],
+  "main": "./extension.js",
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true,
+      "description": "%untrustedDescription%"
+    }
+  },
+  "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "id": "localTaskRunner.scripts",
+          "name": "%viewTitle%"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "localTaskRunner.refresh",
+        "title": "%commandRefresh%"
+      },
+      {
+        "command": "localTaskRunner.runScript",
+        "title": "%commandRunScript%"
+      },
+      {
+        "command": "localTaskRunner.runByIndex",
+        "title": "%commandRunByIndex%"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "localTaskRunner.refresh",
+          "when": "view == localTaskRunner.scripts",
+          "group": "navigation"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "localTaskRunner.runByIndex",
+        "key": "ctrl+shift+1",
+        "args": 1,
+        "when": "editorTextFocus && isWorkspaceTrusted && !terminalFocus"
+      },
+      {
+        "command": "localTaskRunner.runByIndex",
+        "key": "ctrl+shift+2",
+        "args": 2,
+        "when": "editorTextFocus && isWorkspaceTrusted && !terminalFocus"
+      },
+      {
+        "command": "localTaskRunner.runByIndex",
+        "key": "ctrl+shift+3",
+        "args": 3,
+        "when": "editorTextFocus && isWorkspaceTrusted && !terminalFocus"
+      },
+      {
+        "command": "localTaskRunner.runByIndex",
+        "key": "ctrl+shift+4",
+        "args": 4,
+        "when": "editorTextFocus && isWorkspaceTrusted && !terminalFocus"
+      },
+      {
+        "command": "localTaskRunner.runByIndex",
+        "key": "ctrl+shift+5",
+        "args": 5,
+        "when": "editorTextFocus && isWorkspaceTrusted && !terminalFocus"
+      },
+      {
+        "command": "localTaskRunner.runByIndex",
+        "key": "ctrl+shift+6",
+        "args": 6,
+        "when": "editorTextFocus && isWorkspaceTrusted && !terminalFocus"
+      },
+      {
+        "command": "localTaskRunner.runByIndex",
+        "key": "ctrl+shift+7",
+        "args": 7,
+        "when": "editorTextFocus && isWorkspaceTrusted && !terminalFocus"
+      },
+      {
+        "command": "localTaskRunner.runByIndex",
+        "key": "ctrl+shift+8",
+        "args": 8,
+        "when": "editorTextFocus && isWorkspaceTrusted && !terminalFocus"
+      },
+      {
+        "command": "localTaskRunner.runByIndex",
+        "key": "ctrl+shift+9",
+        "args": 9,
+        "when": "editorTextFocus && isWorkspaceTrusted && !terminalFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "echo 'No lint configured yet'",
+    "test": "echo 'No tests yet'"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0"
+  }
+}

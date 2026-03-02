@@ -1,0 +1,12 @@
+.vscode/**
+.github/**
+.git/**
+.gitignore
+SPEC.md
+SPEC.ja.md
+local-scripts-spec.md
+*.txt
+**/*.map
+**/*.svg
+**/*.ts
+**/*.tsx
